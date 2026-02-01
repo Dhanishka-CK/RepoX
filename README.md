@@ -101,5 +101,6 @@ repox/
 
 ---
 
-Built for **[Hacks for Hackers 2026](https://devpost.com/software/repox)** | Winner: Best AI Application Built with Cloudflare
+
+
 
