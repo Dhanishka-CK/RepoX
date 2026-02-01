@@ -26,45 +26,6 @@
 - Cloudflare account (for deployment)
 - Gemini API key
 
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/mutaician/repox.git
-cd repox
-
-# Install dependencies
-bun install
-
-# Set up environment variables
-cp .env.example .env
-# Edit .env with your configuration
-```
-
-### Development
-
-```bash
-# Start frontend dev server
-bun run dev
-
-# Start worker locally (in another terminal)
-cd worker
-bun run dev
-```
-
-### Deployment
-
-```bash
-# Build frontend
-bun run build
-
-# Deploy to Cloudflare Pages
-npx wrangler pages deploy dist --project-name=repox
-
-# Deploy worker
-cd worker
-npx wrangler deploy
-```
 
 ## Environment Variables
 
@@ -100,6 +61,7 @@ repox/
 ```
 
 ---
+
 
 
 
