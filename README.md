@@ -1,6 +1,14 @@
-# RepoX
+#  RepoX
 
 
+
+Any GitHub repo. Fully understood. In minutes.
+
+RepoX transforms overwhelming codebases into interactive, AI-explained visual maps — so you can explore, learn, and contribute to any repository without the usual confusion.
+
+## What RepoX Does
+Most GitHub repos are a maze. Dozens of folders, hundreds of files, zero guidance. RepoX fixes that.
+Paste any GitHub URL. RepoX builds you a live, interactive graph of the entire codebase, explains every file in plain English (or ELI5 if you want), and generates a personalized learning path so you always know what to read next.
 
 ## Features
 
@@ -18,28 +26,6 @@
 - **Hosting:** Cloudflare Pages + Workers
 - **APIs:** GitHub REST API, OSS Insight API
 
-## Getting Started
-
-### Prerequisites
-
-- [Bun](https://bun.sh/) (or Node.js)
-- Cloudflare account (for deployment)
-- Gemini API key
-
-
-## Environment Variables
-
-### Frontend (.env)
-
-```
-VITE_WORKER_URL=https://your-worker.workers.dev
-```
-
-### Worker (wrangler.toml secret)
-
-```bash
-npx wrangler secret put GEMINI_API_KEY
-```
 
 ## Project Structure
 
